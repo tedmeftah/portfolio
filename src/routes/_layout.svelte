@@ -1,0 +1,11 @@
+<script>
+  // export let segment;
+</script>
+
+<style lang="scss" global>
+  @forward 'global';
+</style>
+
+<main>
+  <slot />
+</main>
