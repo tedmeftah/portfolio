@@ -10,8 +10,8 @@
   <title>Error {status}</title>
 </svelte:head>
 
-<h2>Error</h2>
+<h2>Error {status}</h2>
 
 <p>Something went wrong. <a href="/">Back to Home</a></p>
 
-<pre><code>{error}</code></pre>
+<pre><code>{error.message}</code></pre>

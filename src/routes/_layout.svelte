@@ -1,5 +1,5 @@
 <script>
-  // export let segment;
+  export let segment
 </script>
 
 <style lang="scss" global>
@@ -7,5 +7,5 @@
 </style>
 
 <main>
-  <slot />
+  <slot {segment} />
 </main>
