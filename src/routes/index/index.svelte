@@ -3,6 +3,15 @@
   import Writings from './_partials/writings.svelte'
 </script>
 
+<style>
+  .filler {
+    font-size: 2rem;
+    max-width: var(--max-width);
+    margin: 0 auto;
+    margin-bottom: 2rem;
+  }
+</style>
+
 <h1>Mohamed Ted Meftah</h1>
 <p>
   I'm a passionate & entrepreneurial JavaScript developer from the Algeria who
@@ -15,5 +24,14 @@
   users love.
 </p>
 
+<p class="filler">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis nam reiciendis incidunt quisquam ducimus consequatur, culpa ullam temporibus, similique maiores enim eum ipsa recusandae minima ad mollitia sed, numquam fugit?</p>
+<p class="filler">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis nam reiciendis incidunt quisquam ducimus consequatur, culpa ullam temporibus, similique maiores enim eum ipsa recusandae minima ad mollitia sed, numquam fugit?</p>
+<p class="filler">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis nam reiciendis incidunt quisquam ducimus consequatur, culpa ullam temporibus, similique maiores enim eum ipsa recusandae minima ad mollitia sed, numquam fugit?</p>
+<p class="filler">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis nam reiciendis incidunt quisquam ducimus consequatur, culpa ullam temporibus, similique maiores enim eum ipsa recusandae minima ad mollitia sed, numquam fugit?</p>
+<p class="filler">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis nam reiciendis incidunt quisquam ducimus consequatur, culpa ullam temporibus, similique maiores enim eum ipsa recusandae minima ad mollitia sed, numquam fugit?</p>
 <Projects />
+<p class="filler">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis nam reiciendis incidunt quisquam ducimus consequatur, culpa ullam temporibus, similique maiores enim eum ipsa recusandae minima ad mollitia sed, numquam fugit?</p>
+<p class="filler">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis nam reiciendis incidunt quisquam ducimus consequatur, culpa ullam temporibus, similique maiores enim eum ipsa recusandae minima ad mollitia sed, numquam fugit?</p>
+<p class="filler">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis nam reiciendis incidunt quisquam ducimus consequatur, culpa ullam temporibus, similique maiores enim eum ipsa recusandae minima ad mollitia sed, numquam fugit?</p>
+<p class="filler">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis nam reiciendis incidunt quisquam ducimus consequatur, culpa ullam temporibus, similique maiores enim eum ipsa recusandae minima ad mollitia sed, numquam fugit?</p>
 <Writings />
