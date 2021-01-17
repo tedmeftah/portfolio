@@ -37,3 +37,5 @@
 <Writings /> -->
 
 In the process of rebuilding my website...
+
+<a rel="nofollow" href="/learning">Learning in Public</a>
