@@ -41,10 +41,10 @@
 
     cards = Array.from(stack.childNodes)
 
-    stack.style.paddingBottom = `${margin * cards.length}px`
+    // stack.style.paddingBottom = `${margin * cards.length}px`
 
     cards.forEach((card, i) => {
-      card.style.transform = `translateY(${margin * i}px)`
+      card.style.top = `${margin * i}px`
     })
   })
 </script>
