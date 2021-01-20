@@ -36,6 +36,10 @@
 <p class="filler">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis nam reiciendis incidunt quisquam ducimus consequatur, culpa ullam temporibus, similique maiores enim eum ipsa recusandae minima ad mollitia sed, numquam fugit?</p>
 <Writings /> -->
 
+<svelte:head>
+  <title>Mohamed Ted Meftah</title>
+</svelte:head>
+
 In the process of rebuilding my website...
 
 <a rel="nofollow" href="/learning">Learning in Public</a>
