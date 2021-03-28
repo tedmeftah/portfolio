@@ -42,4 +42,4 @@
 
 In the process of rebuilding my website...
 
-<a rel="external" href="/learning">Learning in Public</a>
+<!-- <a rel="nofollow external" href="/learning">Learning in Public</a> -->
