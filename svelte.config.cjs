@@ -1,13 +1,17 @@
-const sveltePreprocess = require('svelte-preprocess');
+/* eslint-disable @typescript-eslint/no-var-requires */
+/* eslint-disable no-undef */
+const preprocess = require('svelte-preprocess');
 const staticAdapter = require('@sveltejs/adapter-static');
 const pkg = require('./package.json');
 
-console.log(staticAdapter())
 /** @type {import('@sveltejs/kit').Config} */
 module.exports = {
-	// Consult https://github.com/sveltejs/svelte-preprocess
-	// for more information about preprocessors
-	preprocess: sveltePreprocess(),
+	preprocess: preprocess({
+		scss: {
+			includePaths: ['src/styles']
+		},
+		preserve: ['ld+json']
+	}),
 	kit: {
 		adapter: staticAdapter(),
 
