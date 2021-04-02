@@ -1,6 +1,8 @@
+const path = require('path')
 const preprocess = require('svelte-preprocess')
-const staticAdapter = require('@sveltejs/adapter-static')
-const pkg = require('./package.json')
+const adapter = require('@sveltejs/adapter-static')
+const imagetools = require('vite-imagetools')
+const { dependencies } = require('./package.json')
 
 /** @type {import('@sveltejs/kit').Config} */
 module.exports = {
@@ -11,12 +13,18 @@ module.exports = {
 		preserve: ['ld+json']
 	}),
 	kit: {
-		adapter: staticAdapter(),
+		adapter: adapter(),
 
 		vite: {
+			resolve: {
+				alias: {
+					"@": path.resolve('src')
+				}
+			},
 			ssr: {
-				noExternal: Object.keys(pkg.dependencies || {})
-			}
+				noExternal: Object.keys(dependencies || {})
+			},
+			plugins: [imagetools({ force: true })]
 		}
 	}
 }

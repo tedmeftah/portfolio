@@ -26,16 +26,17 @@
 <p class="filler">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis nam reiciendis incidunt quisquam ducimus consequatur, culpa ullam temporibus, similique maiores enim eum ipsa recusandae minima ad mollitia sed, numquam fugit?</p>
 <Writings /> -->
 <script>
+  import Logo from '@/assets/logo.png?w=300;400;500&format=webp&srcset'
 	function redirect(e) {
 		e.preventDefault()
 		window.location.href = '/learning'
 	}
 </script>
-
 <svelte:head>
-	<title>Mohamed Ted Meftah</title>
+  <title>Mohamed Ted Meftah</title>
 </svelte:head>
 
+<img srcset={Logo} type="image/webp" alt="TedMeftah"/>
 In the process of rebuilding my website...
 
 <a on:click={redirect} href="/">Learning in Public</a>
