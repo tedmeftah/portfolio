@@ -39,3 +39,9 @@
 In the process of rebuilding my website...
 
 <a on:click={redirect} href="/">Learning in Public</a>
+
+<style lang="scss">
+  a {
+    @apply text-red-500;
+  }
+</style>
