@@ -1,6 +1,7 @@
 {
 	"name": "portfolio",
 	"version": "0.0.1",
+	"private": true,
 	"scripts": {
 		"dev": "set NODE_ENV=development && svelte-kit dev",
 		"build": "set NODE_ENV=production && svelte-kit build",
