@@ -2,8 +2,8 @@
 	"name": "portfolio",
 	"version": "0.0.1",
 	"scripts": {
-		"dev": "svelte-kit dev",
-		"build": "svelte-kit build",
+		"dev": "set NODE_ENV=development && svelte-kit dev",
+		"build": "set NODE_ENV=production && svelte-kit build",
 		"start": "svelte-kit start",
 		"lint": "prettier --check . && eslint .",
 		"format": "prettier --write ."
