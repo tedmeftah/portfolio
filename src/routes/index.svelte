@@ -1,5 +1,6 @@
-<script lang="ts">
-	const Logo = require('@/assets/logo.png?w=300;400;500&format=webp&srcset')
+<script>
+	import Logo from '@/assets/logo.png?w=300;400;500&format=webp&srcset&img'
+
 	function redirect(e) {
 		e.preventDefault()
 		window.location.href = '/learning'
