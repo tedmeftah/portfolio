@@ -18,7 +18,7 @@ module.exports = {
 		vite: {
 			resolve: {
 				alias: {
-					"@": path.resolve('src')
+					'@': path.resolve('src')
 				}
 			},
 			ssr: {
