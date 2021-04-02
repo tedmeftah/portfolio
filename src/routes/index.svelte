@@ -1,16 +1,6 @@
-<!-- <script>
-  import Projects from './_partials/projects.svelte'
-  import Writings from './_partials/writings.svelte'
-</script>
+<!-- <script ✂prettier:content✂="CiAgaW1wb3J0IFByb2plY3RzIGZyb20gJy4vX3BhcnRpYWxzL3Byb2plY3RzLnN2ZWx0ZScKICBpbXBvcnQgV3JpdGluZ3MgZnJvbSAnLi9fcGFydGlhbHMvd3JpdGluZ3Muc3ZlbHRlJwo=">{}</script>
 
-<style>
-  .filler {
-    font-size: 2rem;
-    max-width: var(--max-width);
-    margin: 0 auto;
-    margin-bottom: 2rem;
-  }
-</style>
+<style ✂prettier:content✂="CiAgLmZpbGxlciB7CiAgICBmb250LXNpemU6IDJyZW07CiAgICBtYXgtd2lkdGg6IHZhcigtLW1heC13aWR0aCk7CiAgICBtYXJnaW46IDAgYXV0bzsKICAgIG1hcmdpbi1ib3R0b206IDJyZW07CiAgfQo="></style>
 
 <h1>Mohamed Ted Meftah</h1>
 <p>
@@ -36,9 +26,10 @@
 <p class="filler">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis nam reiciendis incidunt quisquam ducimus consequatur, culpa ullam temporibus, similique maiores enim eum ipsa recusandae minima ad mollitia sed, numquam fugit?</p>
 <Writings /> -->
 <script>
-  function redirect() {
-    window.location.href = "/learning"
-  }
+	function redirect(e) {
+		e.preventDefault();
+		window.location.href = '/learning';
+	}
 </script>
 
 <svelte:head>
@@ -47,4 +38,4 @@
 
 In the process of rebuilding my website...
 
-<a on:click="{redirect}" href="/">Learning in Public</a>
+<a on:click={redirect} href="/">Learning in Public</a>
