@@ -1,8 +1,8 @@
+@forward 'reset';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@forward 'reset';
 
 :root {
 	background: rgb(34, 34, 34);
