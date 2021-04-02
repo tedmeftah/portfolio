@@ -1,6 +1,6 @@
-<!-- <script ✂prettier:content✂="CiAgaW1wb3J0IFByb2plY3RzIGZyb20gJy4vX3BhcnRpYWxzL3Byb2plY3RzLnN2ZWx0ZScKICBpbXBvcnQgV3JpdGluZ3MgZnJvbSAnLi9fcGFydGlhbHMvd3JpdGluZ3Muc3ZlbHRlJwo=">{}</script>
+<!-- <script ✂prettier:content✂="CiAgaW1wb3J0IFByb2plY3RzIGZyb20gJy4vX3BhcnRpYWxzL3Byb2plY3RzLnN2ZWx0ZScKICBpbXBvcnQgV3JpdGluZ3MgZnJvbSAnLi9fcGFydGlhbHMvd3JpdGluZ3Muc3ZlbHRlJwo=" ✂prettier:content✂="e30=" ✂prettier:content✂="e30=">{}</script>
 
-<style ✂prettier:content✂="CiAgLmZpbGxlciB7CiAgICBmb250LXNpemU6IDJyZW07CiAgICBtYXgtd2lkdGg6IHZhcigtLW1heC13aWR0aCk7CiAgICBtYXJnaW46IDAgYXV0bzsKICAgIG1hcmdpbi1ib3R0b206IDJyZW07CiAgfQo="></style>
+<style ✂prettier:content✂="CiAgLmZpbGxlciB7CiAgICBmb250LXNpemU6IDJyZW07CiAgICBtYXgtd2lkdGg6IHZhcigtLW1heC13aWR0aCk7CiAgICBtYXJnaW46IDAgYXV0bzsKICAgIG1hcmdpbi1ib3R0b206IDJyZW07CiAgfQo=" ✂prettier:content✂="" ✂prettier:content✂=""></style>
 
 <h1>Mohamed Ted Meftah</h1>
 <p>
@@ -27,8 +27,8 @@
 <Writings /> -->
 <script>
 	function redirect(e) {
-		e.preventDefault();
-		window.location.href = '/learning';
+		e.preventDefault()
+		window.location.href = '/learning'
 	}
 </script>
 
