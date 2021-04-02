@@ -35,6 +35,11 @@
 <p class="filler">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis nam reiciendis incidunt quisquam ducimus consequatur, culpa ullam temporibus, similique maiores enim eum ipsa recusandae minima ad mollitia sed, numquam fugit?</p>
 <p class="filler">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis nam reiciendis incidunt quisquam ducimus consequatur, culpa ullam temporibus, similique maiores enim eum ipsa recusandae minima ad mollitia sed, numquam fugit?</p>
 <Writings /> -->
+<script>
+  function redirect() {
+    window.location.href = "/learning"
+  }
+</script>
 
 <svelte:head>
 	<title>Mohamed Ted Meftah</title>
@@ -42,4 +47,4 @@
 
 In the process of rebuilding my website...
 
-<a rel="external" href="/learning">Learning in Public</a>
+<a on:click="{redirect}" href="/">Learning in Public</a>
