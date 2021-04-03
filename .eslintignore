@@ -1,2 +1,5 @@
 *.cjs
 app.html
+build
+.svelte
+node_modules
