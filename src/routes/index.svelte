@@ -11,10 +11,12 @@
 
 In the process of rebuilding my website...
 
-<a on:click={redirect} href="/">Learning in Public</a>
+<div class="hot">
+	<a on:click={redirect} href="/">Learning in Public</a>
+</div>
 
-<style lang="scss">
+<style lang="postcss">
 	a {
-		@apply text-red-500;
+		@apply sm:text-red-600;
 	}
 </style>

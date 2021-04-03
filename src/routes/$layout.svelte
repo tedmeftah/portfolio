@@ -10,6 +10,6 @@
 </main>
 <Footer {segment} />
 
-<style lang="scss" global>
-	@forward 'global';
+<style lang="postcss" global>
+	@import "global.postcss";
 </style>

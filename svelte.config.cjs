@@ -7,10 +7,8 @@ const { dependencies } = require('./package.json')
 /** @type {import('@sveltejs/kit').Config} */
 module.exports = {
 	preprocess: preprocess({
-		scss: {
-			includePaths: ['src/styles']
-		},
-		preserve: ['ld+json']
+		preserve: ['ld+json'],
+		postcss: true
 	}),
 	kit: {
 		adapter: adapter(),
