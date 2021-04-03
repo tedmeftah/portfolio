@@ -1,8 +1,8 @@
 ---
 title: Ted Meftah Portfolio
 description: 
-author: 
-twitterHandler:
+author: Ted Meftah
+twitter: "@TedMeftah"
 ---
 
 # Ted Meftah
