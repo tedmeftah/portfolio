@@ -1,15 +1,14 @@
 <script>
 	import Header from '$lib/header.svelte'
 	import Footer from '$lib/footer.svelte'
-	export let segment
 </script>
 
-<Header {segment} />
+<Header />
 <main>
-	<slot {segment} />
+	<slot />
 </main>
-<Footer {segment} />
+<Footer />
 
 <style lang="postcss" global>
-	@import "global.postcss";
+	@import 'global.postcss';
 </style>

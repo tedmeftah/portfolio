@@ -1,7 +1,3 @@
-<script>
-	export let segment
-</script>
-
-<header class={segment}>
+<header>
 	<nav><a href="/articles">Articles</a></nav>
 </header>

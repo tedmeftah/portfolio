@@ -1,8 +1,4 @@
-<script>
-	export let segment
-</script>
-
-<footer class={segment}>
+<footer>
 	<nav>
 		<a href="https://twitter.com/TedMeftah" target="_blank" rel="noopener noreferrer">Twitter</a>
 		<a href="https://dribbble.com/TedMeftah" target="_blank" rel="noopener noreferrer">Dribbble</a>
