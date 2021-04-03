@@ -3,6 +3,7 @@ const preprocess = require('svelte-preprocess')
 const adapter = require('@sveltejs/adapter-static')
 const imagetools = require('vite-imagetools')
 const { dependencies } = require('./package.json')
+const { default: WindiCSS } = require('vite-plugin-windicss')
 
 /** @type {import('@sveltejs/kit').Config} */
 module.exports = {
@@ -22,7 +23,7 @@ module.exports = {
 			ssr: {
 				noExternal: Object.keys(dependencies || {})
 			},
-			plugins: [imagetools({ force: true })]
+			plugins: [WindiCSS(), imagetools({ force: true })]
 		}
 	}
 }

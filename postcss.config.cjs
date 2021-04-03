@@ -1,7 +1,6 @@
 const path = require('path')
 const imports = require('postcss-import')
 const presets = require('postcss-preset-env')
-const tailwind = require('@tailwindcss/jit')
 const cssnano = require('cssnano')
 const autoprefixer = require('autoprefixer')
 
@@ -18,7 +17,6 @@ module.exports = {
 				'custom-media-queries': true
 			}
 		}),
-		tailwind(),
 		autoprefixer(),
 		!isDev && cssnano({ preset: ['default', { discardComments: { removeAll: true } }] })
 	]

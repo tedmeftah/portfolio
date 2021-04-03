@@ -1,4 +1,6 @@
 <script>
+	import 'virtual:windi.css'
+
 	function redirect(e) {
 		e.preventDefault()
 		window.location.href = '/learning'
@@ -16,7 +18,11 @@ In the process of rebuilding my website...
 </div>
 
 <style lang="postcss">
-	a {
-		@apply sm:text-red-600;
+	.hot {
+		& a {
+			@screen sm {
+				@apply text-red-600;
+			}
+		}
 	}
 </style>
