@@ -17,9 +17,11 @@ In the process of rebuilding my website...
 	<a on:click={redirect} href="/">Learning in Public</a>
 </div>
 
+<a href="/" class="btn">Test</a>
 <style lang="postcss">
 	.hot {
 		& a {
+			@apply text-blue-600;
 			@screen sm {
 				@apply text-red-600;
 			}
