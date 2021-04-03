@@ -1,7 +1,7 @@
 <script>
 	export let meta = {}
-    meta.title = meta.title || 'Ted Meftah'
-    meta.image = meta.image || '/avatar.png'
+	meta.title = meta.title || 'Ted Meftah'
+	meta.image = meta.image || '/avatar.png'
 </script>
 
 <title>{meta.title}</title>

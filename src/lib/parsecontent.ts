@@ -1,3 +1,3 @@
-export default function() : string {
-    return ""
+export default function (): string {
+	return ''
 }
