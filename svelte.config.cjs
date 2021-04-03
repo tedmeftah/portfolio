@@ -3,14 +3,23 @@ const preprocess = require('svelte-preprocess')
 const adapter = require('@sveltejs/adapter-static')
 const imagetools = require('vite-imagetools')
 const { dependencies } = require('./package.json')
-const { default: WindiCSS } = require('vite-plugin-windicss')
 
-/** @type {import('@sveltejs/kit').Config} */
 module.exports = {
-	preprocess: preprocess({
-		preserve: ['ld+json'],
-		postcss: true
-	}),
+	preprocess: [
+		preprocess({
+			preserve: ['ld+json'],
+			postcss: true
+		}),
+		require('svelte-windicss-preprocess').preprocess({
+			compile: true,
+			prefix: '',
+			verbosity: 1,
+			debug: false,
+			devTools: {
+				completions: false
+			}
+		})
+	],
 	kit: {
 		adapter: adapter(),
 
@@ -23,7 +32,7 @@ module.exports = {
 			ssr: {
 				noExternal: Object.keys(dependencies || {})
 			},
-			plugins: [WindiCSS(), imagetools({ force: true })]
+			plugins: [imagetools({ force: true })]
 		}
 	}
 }
