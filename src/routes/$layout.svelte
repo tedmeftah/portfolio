@@ -6,11 +6,18 @@
 <svelte:head>
 	<title>Ted Meftah</title>
 
-	<meta property="og:title" content="Ted Meftah" />
-	<meta property="og:image" content="/avatar.png" />
 	<meta name="description" content="Ted Meftah's Portfolio" />
-	<meta name="twitter:card" content="summary" />
+
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Ted Meftah's Portfolio" />
+	<meta property="og:description" content="" />
+	<meta property="og:image" content="/avatar.png" />
+
 	<meta name="twitter:creator" content="@TedMeftah" />
+	<meta name="twitter:card" content="summary" />
+	<meta property="twitter:title" content="Ted Meftah's Portfolio" />
+	<meta property="twitter:description" content="" />
+	<meta property="twitter:image" content="/avatar.png" />
 </svelte:head>
 
 <Header />
