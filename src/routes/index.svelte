@@ -1,24 +1,22 @@
+<script context="module">
+	export async function load({ fetch }) {
+		const res = await fetch('/content/home')
+		return {
+			props: await res.json()
+		}
+	}
+</script>
+
 <script>
 	function redirect(e) {
 		e.preventDefault()
 		window.location.href = '/learning'
 	}
+	export let content
 </script>
 
-
-
-In the process of rebuilding my website...
-
-<div class="hot">
-	<a on:click={redirect} href="/">Learning in Public</a>
-</div>
-
-<a href="/" class="">Test</a>
+{@html content}
+<a on:click={redirect} href="/">Learning in Public</a>
 
 <style lang="postcss">
-	.hot {
-		& a {
-			@apply bg-red-500 sm:(text-5xl text-green-600);
-		}
-	}
 </style>

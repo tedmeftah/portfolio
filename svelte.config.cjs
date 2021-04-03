@@ -12,12 +12,7 @@ module.exports = {
 		}),
 		require('svelte-windicss-preprocess').preprocess({
 			compile: true,
-			prefix: '',
-			verbosity: 1,
-			debug: false,
-			devTools: {
-				completions: false
-			}
+			prefix: ''
 		})
 	],
 	kit: {

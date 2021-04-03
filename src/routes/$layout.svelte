@@ -7,6 +7,7 @@
 	<title>Ted Meftah</title>
 
 	<meta name="description" content="Ted Meftah's Portfolio" />
+	<meta name="author" content="Ted Meftah" />
 
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="Ted Meftah's Portfolio" />
@@ -21,7 +22,7 @@
 </svelte:head>
 
 <Header />
-<main>
+<main class="px-7 py-10 prose m-auto mb-8">
 	<slot />
 </main>
 <Footer />
