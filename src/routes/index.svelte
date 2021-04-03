@@ -7,6 +7,7 @@
 
 <svelte:head>
 	<title>Mohamed Ted Meftah</title>
+	<meta property="twitter:creator" content="@TedMeftah" />
 </svelte:head>
 
 In the process of rebuilding my website...
