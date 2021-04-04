@@ -3270,13 +3270,6 @@ vite-imagetools@^3.4.0-next.1:
     imagetools-core "^0.1.0-next.11"
     magic-string "^0.25.7"
 
-"vite-plugin-svelte-md@https://github.com/TedMeftah/vite-plugin-svelte-md#next":
-  version "0.0.2"
-  resolved "https://github.com/TedMeftah/vite-plugin-svelte-md#70be16c7b4da2f634a64c60856b010df91999266"
-  dependencies:
-    gray-matter "^4.0.2"
-    marked "^2.0.1"
-
 vite@^2.1.0:
   version "2.1.5"
   resolved "https://registry.yarnpkg.com/vite/-/vite-2.1.5.tgz#4857da441c62f7982c83cbd5f42a00330f20c9c1"
