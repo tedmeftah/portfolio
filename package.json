@@ -33,7 +33,8 @@
 		"tslib": "^2.0.0",
 		"typescript": "^4.0.0",
 		"vite": "^2.1.0",
-		"vite-imagetools": "^3.4.0-next.1"
+		"vite-imagetools": "^3.4.0-next.1",
+		"vite-plugin-svelte-md": "github:TedMeftah/vite-plugin-svelte-md#next"
 	},
 	"type": "module",
 	"engines": {

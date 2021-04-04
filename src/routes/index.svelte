@@ -5,11 +5,6 @@
 		window.location.href = '/learning'
 	}
 </script>
-<!-- <svelte:head>
-	<meta name="hello" content="new meta" />
-	<meta property="og:title" content="hello over write" />
-	<title>override i hope</title>
-</svelte:head> -->
 <Home />
 
 <a on:click={redirect} href="/">Learning in Public</a>
