@@ -9,7 +9,6 @@
 
 <a on:click={redirect} href="/">Learning in Public</a>
 
-{JSON.stringify(process.env)}
 <style lang="postcss">
 </style>
 
