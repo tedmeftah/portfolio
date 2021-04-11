@@ -6,7 +6,7 @@ twitter: '@TedMeftah'
 ---
 
 <script>
-    import Counter from '$lib/counter.svelte'
+    import Counter from '../src/lib/counter.svelte'
     const hello = "hello"
 </script>
 
