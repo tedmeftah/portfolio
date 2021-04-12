@@ -5,9 +5,10 @@
 		window.location.href = '/learning'
 	}
 </script>
+
 <Home />
 
-<a on:click={redirect} href="/">Learning in Public</a>
+<a on:click={redirect} href="/" class="block">Learning in Public</a>
 
 <style lang="postcss">
 </style>
