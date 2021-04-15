@@ -10,3 +10,77 @@
 a {
 	color: currentColor;
 }
+
+@layer components {
+	.text-d1,
+	.text-d2,
+	.text-h1,
+	.text-h2,
+	.text-h3,
+	.text-h4,
+	.text-h5,
+	.text-h6 {
+		@apply font-header font-bold;
+	}
+
+	.text-d1 {
+		@apply text-6xl;
+	}
+
+	.text-d2 {
+		@apply text-5xl;
+	}
+
+	.text-h1 {
+		@apply text-4xl;
+	}
+
+	.text-h2 {
+		@apply text-3xl;
+	}
+	.text-h3 {
+		@apply text-2xl;
+	}
+	.text-h4 {
+		@apply text-xl;
+	}
+	.text-h5 {
+		@apply text-lg;
+	}
+	.text-h6 {
+		@apply text-base;
+	}
+
+	.text-body,
+	.text-body-lg,
+	.text-link {
+		@apply font-body;
+	}
+
+	.text-body-large {
+		@apply text-lg;
+	}
+
+	.text-body {
+		@apply text-base;
+	}
+
+	.text-link {
+		@apply font-bold;
+	}
+	.text-hello-sm {
+		@apply bg-red-500;
+	}
+	.text-body-sm {
+		@apply text-sm font-mono;
+	}
+
+	@screen sm {
+		.text-d1 {
+			@apply text-7xl tracking-tight;
+		}
+		.text-d2 {
+			@apply text-6xl tracking-tight;
+		}
+	}
+}
