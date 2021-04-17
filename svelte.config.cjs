@@ -5,6 +5,7 @@ const { imagetools } = require('vite-imagetools')
 const markdown = require('vite-plugin-svelte-md').default
 const { preprocess: windicss } = require('svelte-windicss-preprocess')
 const { dependencies } = require('./package.json')
+
 module.exports = {
 	extensions: ['.svelte', '.md'],
 	preprocess: [
