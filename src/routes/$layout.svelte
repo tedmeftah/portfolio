@@ -4,7 +4,7 @@
 </script>
 
 <Header />
-<main class="px-7 py-10 prose m-auto mb-8">
+<main class="m-auto mb-8 py-10 px-7 prose">
 	<slot />
 </main>
 <Footer />

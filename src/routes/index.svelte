@@ -11,5 +11,7 @@
 <a on:click={redirect} href="/" class="block">Learning in Public</a>
 
 <style lang="postcss">
+	:global(body) {
+		@apply fill-blue-500;
+	}
 </style>
-
