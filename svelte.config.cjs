@@ -4,7 +4,7 @@ const preprocess = require('svelte-preprocess')
 const adapter = require('@sveltejs/adapter-static')
 const { imagetools } = require('vite-imagetools')
 const { default: markdown } = require('@netulip/rollup-plugin-md')
-// const { default: svg } = require('@netulip/rollup-plugin-svg')
+const { default: svg } = require('@netulip/rollup-plugin-svg')
 const { preprocess: windicss } = require('svelte-windicss-preprocess')
 const { dependencies } = require('./package.json')
 
@@ -33,7 +33,7 @@ module.exports = {
 			ssr: {
 				noExternal: Object.keys(dependencies || {})
 			},
-			plugins: [markdown({enforce: 'pre'}), imagetools({ force: true })]
+			plugins: [svg({enforce: 'pre'}), markdown({enforce: 'pre'}), imagetools({ force: true })]
 		}
 	}
 }
