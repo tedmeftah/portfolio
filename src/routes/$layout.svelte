@@ -1,14 +1,21 @@
 <script>
-	import Header from '$lib/header.svelte'
-	import Footer from '$lib/footer.svelte'
+	import 'virtual:windi.css'
 </script>
 
-<Header />
-<main class="m-auto mb-8 py-10 px-7 prose">
+<main>
 	<slot />
 </main>
-<Footer />
 
-<style lang="postcss" global>
-	@import 'global.postcss';
+<style global>
+	:root {
+		@apply font-sans bg-[#0F0F0F] text-[#DDE1E3];
+	}
+
+	a {
+		color: currentColor;
+	}
+
+	main {
+		@apply m-auto mb-8 max-w-3xl px-4 pt-24;
+	}
 </style>
