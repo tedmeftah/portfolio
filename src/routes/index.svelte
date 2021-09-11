@@ -1,3 +1,12 @@
+<script>
+	import { page } from '$app/stores'
+	import { onMount } from 'svelte'
+
+	onMount(() => {
+		console.log($page.host)
+	})
+</script>
+
 <svelte:head>
 	<title>Ted Meftah</title>
 </svelte:head>
