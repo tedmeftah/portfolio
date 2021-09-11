@@ -43,6 +43,7 @@
 			@apply bg-blue-900 text-blue-300;
 		}
 	}
+	
 	h2 {
 		@apply font-bold text-4xl mt-4;
 	}
