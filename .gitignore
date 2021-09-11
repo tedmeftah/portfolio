@@ -1,6 +1,4 @@
-.DS_Store
+.svelte-kit
 node_modules
-/.svelte
-/.svelte-kit
-/build
-/functions
+static
+build
