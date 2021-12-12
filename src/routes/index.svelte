@@ -28,9 +28,9 @@
 		class="pill blue">my public learning notes.</a
 	>
 </p>
-<a href="/articles/pages/2"></a>
-<a href="/articles/pages/3"></a>
-<a href="/articles/pages/4"></a>
+<a href="/articles/page/2"></a>
+<a href="/articles/page/3"></a>
+<a href="/articles/page/4"></a>
 
 <style>
 	.pill {
