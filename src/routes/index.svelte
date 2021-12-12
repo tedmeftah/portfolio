@@ -28,11 +28,14 @@
 		class="pill blue">my public learning notes.</a
 	>
 </p>
+<a href="/articles/pages/2"></a>
+<a href="/articles/pages/3"></a>
+<a href="/articles/pages/4"></a>
 
 <style>
 	.pill {
 		@apply no-underline;
-		@apply rounded-full px-3 text-lg font-bold inline-block tracking-wide;
+		@apply rounded-full font-bold text-lg tracking-wide px-3 inline-block;
 		&.small {
 			@apply text-sm py-1;
 		}
@@ -45,7 +48,7 @@
 	}
 	
 	h2 {
-		@apply font-bold text-4xl mt-4;
+		@apply font-bold mt-4 text-4xl;
 	}
 
 	p {

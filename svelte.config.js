@@ -25,7 +25,7 @@ export default {
 			plugins: [
 				svg.default({ enforce: 'pre' }),
 				markdown.default({ enforce: 'pre' }),
-				windicss.default({ transformCSS: 'pre' }),
+				windicss({ transformCSS: 'pre' }),
 				imagetools({ force: true })
 			]
 		}
